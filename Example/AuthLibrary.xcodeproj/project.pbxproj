@@ -12,7 +12,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		F56300482D4D770100F0F01E /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56300472D4D770100F0F01E /* MyApp.swift */; };
-		F563015B2D4D8D5700F0F01E /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = F563015A2D4D8D5700F0F01E /* awsconfiguration.json */; };
 		F5C4A2222D52C45500901788 /* CustomSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C4A2212D52C45500901788 /* CustomSessionView.swift */; };
 		FE62EADEC48289AB65D6392D /* Pods_AuthLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F772A402059B87CF056A6A88 /* Pods_AuthLibrary_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +43,6 @@
 		E83B7B0D522A68B476BA040C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEB41C6615BCA8299E221B0F /* Pods-AuthLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AuthLibrary_Tests/Pods-AuthLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F56300472D4D770100F0F01E /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
-		F563015A2D4D8D5700F0F01E /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		F5C4A2212D52C45500901788 /* CustomSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSessionView.swift; sourceTree = "<group>"; };
 		F772A402059B87CF056A6A88 /* Pods_AuthLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,7 +102,6 @@
 			children = (
 				F5C4A2212D52C45500901788 /* CustomSessionView.swift */,
 				F56300472D4D770100F0F01E /* MyApp.swift */,
-				F563015A2D4D8D5700F0F01E /* awsconfiguration.json */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -249,7 +246,6 @@
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				F563015B2D4D8D5700F0F01E /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
