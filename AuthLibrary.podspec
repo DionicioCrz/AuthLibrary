@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AuthLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AuthLibrary.'
+  s.summary          = 'A library for implementing an authentication flow using AWS Cognito.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,14 +24,21 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/DionicioCrz/AuthLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'DionicioCrz' => 'dioniciocruzvelazquez@gmail.com' }
+  s.author           = { 'Cincinnati AI' => '' }
   s.source           = { :git => 'https://github.com/DionicioCrz/AuthLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'AuthLibrary/Classes/**/*'
+  s.dependency 'AWSMobileClient', '~> 2.30.2'
+  s.dependency 'AWSUserPoolsSignIn', '~> 2.30.2'
+  s.dependency 'AWSAuthUI', '~> 2.30.2'
+  s.dependency 'KeychainSwift'
+  s.frameworks = 'SwiftUI', 'Combine'
   
+#  s.dependency 'AuthLibrary'
+  s.preserve_paths = 'AuthLibrary/Classes/**/*'
   # s.resource_bundles = {
   #   'AuthLibrary' => ['AuthLibrary/Assets/*.png']
   # }

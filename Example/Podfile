@@ -1,8 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'AuthLibrary_Example' do
+  pod 'AWSMobileClient', '~> 2.30.2'
+  pod 'AWSUserPoolsSignIn', '~> 2.30.2'
+  pod 'AWSAuthUI', '~> 2.30.2'
+  pod 'KeychainSwift'
   pod 'AuthLibrary', :path => '../'
 
   target 'AuthLibrary_Tests' do
